@@ -5,7 +5,6 @@ class CreateTweets < ActiveRecord::Migration[5.2]
       t.text :text
       t.text :image
 
-
       t.timestamps null: true
     end
   end
